@@ -6,7 +6,7 @@
   
   <!-- Reveal.js CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css" id="theme">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -28,6 +28,11 @@
       margin-top: 2em;
       text-align: center;
     }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 600px;
+    }
   </style>
 </head>
 <body>
@@ -37,7 +42,13 @@
       <!-- Portada -->
       <section class="title-slide">
         <h1>Predicción de la propensión a desarrollar depresión</h1>
-        <p>Autor: Pablo Bermúdez Gámez</p> <!-- Cambia el nombre si quieres -->
+        <p>Autor: Pablo Bermúdez Gámez</p>
+      </section>
+
+      <!-- Gráfico -->
+      <section>
+        <h2>Visualización de datos</h2>
+        <iframe src="graficos/grafico1.html"></iframe>
       </section>
 
     </div>
